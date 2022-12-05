@@ -1,0 +1,394 @@
+body {
+
+	background-color: white;
+
+}
+
+/* Gezinme menüsü ayarları */
+
+.nav-bar {
+	position: absolute;
+	width: 100%;
+	height: 40px;
+	top: 10px;
+	left: 0px;
+	background-color: red;
+	text-align: center;
+	color: white;
+	display: inline;
+}
+
+.nav-bar h1 {
+	position: absolute;
+	top: -5px;
+	left: 10%;
+	display: inline;
+	font-size: 20px;
+	font-family: sans-serif;
+}
+
+.nav-bar .p1 {
+	position: absolute;
+	top: -10px;
+	left: 45%;
+	display: inline;
+	font-family: sans-serif;
+	font-size: 20px;
+}
+
+.nav-bar .p2 {
+	position: absolute;
+	top: -10px;
+	left: 55%;
+	display: inline;
+	font-family: sans-serif;
+	font-size: 20px;
+}
+
+.nav-bar .p3 {
+	position: absolute;
+	top: -10px;
+	left: 65%;
+	display: inline;
+	font-family: sans-serif;
+	font-size: 20px;
+}
+
+.nav-bar .p4 {
+	position: absolute;
+	top: -10px;
+	left: 75%;
+	display: inline;
+	font-family: sans-serif;
+	font-size: 20px;
+}
+
+.nav-bar .p5 {
+	position: absolute;
+	top: -10px;
+	left: 85%;
+	display: inline;
+	font-family: sans-serif;
+	font-size: 20px;
+}
+
+.nav-bar a {
+	color: white;
+	font-size: 20px;
+	text-decoration: none;
+	text-transform: none;
+}
+
+/* Menü ayarları */
+
+.menu {
+	position: absolute;
+	margin-left: 60px;
+	width: 90%;
+	height: 250px;
+	top: 120px;
+	background-color: white;
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+}
+
+.menu2 {
+	position: absolute;
+	margin-left: 490px;
+	width: 939px;
+	height: 249px;
+	top: 370px;
+	background-color: #949a9a;
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+}
+
+.menu .author {
+	position: absolute;
+	width: 430px;
+	height: 500px;
+	border-color: white;
+	border-width: 0px;
+}
+
+.menu .bh1 {
+	position: absolute;
+	margin-left: 450px;
+	font-size: 30px;
+	top: 10px; 
+	font-family: sans-serif;
+}
+
+.menu .p1 {
+	position: absolute;
+	margin-left: 450px;
+	font-size: 18px;
+	top: 70px; 
+	font-family: sans-serif;
+}
+
+.menu2 .bh2 {
+	position: absolute;
+	margin-left: 30px;
+	font-size: 30px;
+	top: 10px; 
+	font-family: sans-serif;
+}
+
+.menu2 .p2 {
+	position: absolute;
+	margin-left: 30px;
+	font-size: 18px;
+	top: 70px; 
+	font-family: sans-serif;
+}
+
+/* Alt bilgi menüsü */
+
+.footer {
+	position: absolute;
+	padding-left: 0px;
+	margin-left: 0px;
+	width: 100%;
+	height: 40px;
+	top: 1400px;
+	background-color: red;
+	left: 0px;
+	color: white;
+}
+
+.footer .fp1 {
+	text-align: center;
+	color: white;
+	font-size: 17px;
+	position: absolute;
+	margin-top: 10px;
+	left: 450px;
+}
+
+/* Yüzde menüsü */
+
+.yuzde {
+	position: absolute;
+	width: 100%;
+	left: 0px;
+	top: 800px;
+	height: 500px;
+	background-color: black;
+
+}
+
+.yuzde .html {
+	position: absolute;
+	left: 250px;
+	top: 75px;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+	width: 250px;
+	height: 150px;
+	background: green;
+}
+
+.yuzde .html .yhtml1 {
+	position: absolute;
+	font-size: 25px;
+	top: 10px;
+	color: white;
+	left: 90px;
+	font-family: Monospace;
+}
+
+.yuzde .html .yhtml2 {
+	position: absolute;
+	font-size: 25px;
+	top: 60px;
+	color: white;
+	left: 95px;
+	font-family: Monospace;
+}
+
+
+
+.yuzde .css {
+	position: absolute;
+	left: 550px;
+	top: 75px;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+	width: 250px;
+	height: 150px;
+	background: red;
+}
+
+.yuzde .css .ycss1 {
+	position: absolute;
+	font-size: 25px;
+	top: 10px;
+	color: white;
+	left: 90px;
+	font-family: Monospace;
+}
+
+.yuzde .css .ycss2 {
+	position: absolute;
+	font-size: 25px;
+	top: 60px;
+	color: white;
+	left: 90px;
+	font-family: Monospace;
+}
+
+
+
+.yuzde .js {
+	position: absolute;
+	left: 850px;
+	border-style: solid;
+	top: 75px;
+	border-color: black;
+	border-width: 1px;
+	width: 250px;
+	height: 150px;
+	background: #0054ff;
+}
+
+.yuzde .js .yjs1 {
+	position: absolute;
+	font-size: 25px;
+	top: 10px;
+	color: white;
+	left: 105px;
+	font-family: Monospace;
+}
+
+.yuzde .js .yjs2 {
+	position: absolute;
+	font-size: 25px;
+	top: 60px;
+	color: white;
+	left: 100px;
+	font-family: Monospace;
+}
+
+.hr1 {
+	position: absolute;
+	top: 1340px;
+	width: 88%;
+	left: 80px;
+}
+
+.kh1 {
+	position: absolute;
+	top: 660px;
+	text-align: center;
+	left: 600px;
+}
+
+.hr2 {
+	position: absolute;
+	top: 740px;
+	width: 88%;
+	left: 80px;
+}
+
+
+
+
+
+
+.yuzde .c {
+	position: absolute;
+	left: 250px;
+	border-style: solid;
+	top: 250px;
+	border-color: black;
+	border-width: 1px;
+	width: 250px;
+	height: 150px;
+	background: purple;
+}
+
+.yuzde .c .yc1 {
+	position: absolute;
+	font-size: 25px;
+	top: 10px;
+	color: white;
+	left: 105px;
+	font-family: Monospace;
+}
+
+.yuzde .c .yc2 {
+	position: absolute;
+	font-size: 25px;
+	top: 60px;
+	color: white;
+	left: 100px;
+	font-family: Monospace;
+}
+
+
+.yuzde .python {
+	position: absolute;
+	left: 550px;
+	border-style: solid;
+	top: 250px;
+	border-color: black;
+	border-width: 1px;
+	width: 250px;
+	height: 150px;
+	background: orange;
+}
+
+.yuzde .python .yp1 {
+	position: absolute;
+	font-size: 25px;
+	top: 10px;
+	color: white;
+	left: 85px;
+	font-family: Monospace;
+}
+
+.yuzde .python .yp2 {
+	position: absolute;
+	font-size: 25px;
+	top: 60px;
+	color: white;
+	left: 100px;
+	font-family: Monospace;
+}
+
+
+
+.yuzde .php {
+	position: absolute;
+	left: 850px;
+	border-style: solid;
+	top: 250px;
+	border-color: black;
+	border-width: 1px;
+	width: 250px;
+	height: 150px;
+	background: #f65cf5;
+}
+
+.yuzde .php .yphp1 {
+	position: absolute;
+	font-size: 25px;
+	top: 10px;
+	color: white;
+	left: 90px;
+	font-family: Monospace;
+}
+
+.yuzde .php .yphp2 {
+	position: absolute;
+	font-size: 25px;
+	top: 60px;
+	color: white;
+	left: 90px;
+	font-family: Monospace;
+}

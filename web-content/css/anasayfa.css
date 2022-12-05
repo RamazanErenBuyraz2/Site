@@ -1,0 +1,208 @@
+/* Arka plan ayarları */
+
+body {
+
+	background-color: white;
+
+}
+
+/* Gezinme menüsü ayarları */
+
+.nav-bar {
+	position: absolute;
+	width: 100%;
+	height: 40px;
+	top: 10px;
+	left: 0px;
+	background-color: red;
+	text-align: center;
+	color: white;
+	display: inline;
+}
+
+.nav-bar h1 {
+	position: absolute;
+	top: -5px;
+	left: 10%;
+	display: inline;
+	font-size: 20px;
+	font-family: sans-serif;
+}
+
+.nav-bar .p1 {
+	position: absolute;
+	top: -10px;
+	left: 45%;
+	display: inline;
+	font-family: sans-serif;
+	font-size: 20px;
+}
+
+.nav-bar .p2 {
+	position: absolute;
+	top: -10px;
+	left: 55%;
+	display: inline;
+	font-family: sans-serif;
+	font-size: 20px;
+}
+
+.nav-bar .p3 {
+	position: absolute;
+	top: -10px;
+	left: 65%;
+	display: inline;
+	font-family: sans-serif;
+	font-size: 20px;
+}
+
+.nav-bar .p4 {
+	position: absolute;
+	top: -10px;
+	left: 75%;
+	display: inline;
+	font-family: sans-serif;
+	font-size: 20px;
+}
+
+.nav-bar .p5 {
+	position: absolute;
+	top: -10px;
+	left: 85%;
+	display: inline;
+	font-family: sans-serif;
+	font-size: 20px;
+}
+
+.nav-bar a {
+	color: white;
+	font-size: 20px;
+	text-decoration: none;
+	text-transform: none;
+}
+
+/* Menü ayarları */
+
+.menu {
+	position: absolute;
+	margin-left: 60px;
+	width: 90%;
+	height: 500px;
+	top: 120px;
+	border-style: solid;
+	border-width: 3px;
+	border-color: gray;
+}
+
+.menu .h1 {
+	position: absolute;
+	margin-left: 70px;
+	top: 40px; 
+	font-family: sans-serif;
+	font-size: 30px;
+}
+
+.menu .prg1 {
+	position: absolute;
+	margin-left: 70px;
+	top: 100px; 
+	font-family: sans-serif;
+	font-size: 20px;
+}
+
+.menu .prg2 {
+	position: absolute;
+	margin-left: 70px;
+	top: 120px; 
+	font-family: sans-serif;
+	font-size: 20px;
+}
+
+.menu .baslik1 {
+	position: absolute;
+	margin-left: 70px;
+	top: 360px;
+	font-family: sans-serif;
+	font-size: 23px;
+}
+
+.menu .a-img {
+	position: absolute;
+	top: 10px;
+	margin-left: 940px;
+	width: 430px;
+	height: 480px;
+}
+
+.fab {
+	position: absolute;
+    padding: 8px;
+    top: 400px;
+    font-size: 30px;
+    width: 32px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+.fab:hover {
+    opacity: 0.6;
+}
+
+.fa-facebook-f {
+    position: absolute;
+    left: 100px;
+}
+
+.fa-youtube {
+    position: absolute;
+    left: 140px;
+}
+
+.fa-instagram {
+	position: absolute;
+	left: 60px;
+}
+
+.fa-google {
+	position: absolute;
+	left: 190px;
+}
+
+.menu .hy1 {
+	position: absolute;
+	margin-left: 70px;
+	top: 170px;
+	width: 240px;
+	height: 50px;
+	padding-top: 10px;
+}
+
+.menu .hy1 .b1 {
+	width: 280px;
+	height: 40px;
+	font-size: 15px;
+}
+
+/* Alt bilgi menüsü */
+
+.footer {
+	position: absolute;
+	padding-left: 0px;
+	margin-left: 0px;
+	width: 100%;
+	height: 40px;
+	top: 94%;
+	background-color: red;
+	left: 0px;
+	color: white;
+}
+
+.footer .fp1 {
+	text-align: center;
+	color: white;
+	font-size: 17px;
+	position: absolute;
+	margin-top: 10px;
+	left: 450px;
+}
